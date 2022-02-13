@@ -1,0 +1,39 @@
+.table-box {
+  width: 900px;
+  table {
+    width: 100%;
+    color: #000;
+    thead {
+      width: 100%;
+      background-color: #fff;
+      tr {
+        th {
+          position: relative;
+          text-align: center;
+          vertical-align: middle;
+          padding: 6px;
+        }
+        .bordered {
+          border: 1px solid #ccc;
+        }
+      }
+    }
+    tbody {
+      width: 100%;
+      background-color: #fff;
+      tr {
+        width: 100%;
+        border: 1px solid #e4e4e4;
+        cursor: pointer;
+        td {
+          text-align: center;
+          vertical-align: middle;
+          padding: 6px;
+        }
+      }
+      tr:hover {
+        background-color: #f9f9f9;
+      }
+    }
+  }
+}
